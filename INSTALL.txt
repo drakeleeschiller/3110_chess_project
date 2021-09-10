@@ -1,0 +1,25 @@
+In the terminal, navigate to the directory in which you saved the 
+3110_chess_project folder, and then go into the 3110_chess_project.
+
+Once in the folder, run 'make clean', 'make build' to create all the build 
+files necessary to play the game. 
+
+Afterwards, run 'make play' to load the game, and type start to play the game. 
+Instructions on how to start, quit, and see the rules will also be shown
+immediately after running 'make play', but will be described below regardless.
+
+Available commands after running 'make play':
+1. 'start': loads the game
+2. 'quit': quits the program (without ever loading the game)
+3. 'rules': gives you the rules on how to play chess on our program 
+(Note: 'rules' does not give you the rules for chess. We assume the user
+already knows standard chess rules)
+
+Available commands after loading the game (i.e. inputting 'start'):
+1. 'go [pos1] [pos2]': moves the piece in [pos1] to [pos2] if valid. 
+    Example:
+        If the first command after loading is 'go a2 a4', the pawn on a2 moves 
+        to the square a4. 
+2. 'castle [direction]' castles in the given direction (left or right)
+2. 'quit': lets you quit the program
+3. 'rules': shows you the rules to on how play chess on our program
